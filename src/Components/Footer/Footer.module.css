@@ -1,0 +1,66 @@
+.wrapper{
+    position: relative;
+}
+.newsLetter{
+    border-radius: 10px;
+    padding: 60px 0 60px 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.newsLetter h2{
+    margin-bottom: 23px;
+    color: #fff;
+}
+.newsLetter div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.newsLetter button{
+    background: #1A6A62;
+    color: #fff;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 240px 0 60px;
+}
+.footer h6{
+    margin-bottom: 20px;
+}
+.footer nav{
+    width: 245px;
+}
+.footer nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer h5{
+    padding-bottom: 14px;
+}
+.socialNetwork{
+    width: 475px;
+    text-align: center;
+}
+.socialNetwork ul{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.socialNetwork p{
+    padding: 28px 0;
+}
+.contactUs{
+    width: 245px;
+    text-align: right;
+}
+.lowerFooter{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    padding: 18px 0 19px;
+}

@@ -1,0 +1,36 @@
+.wrapperBanner{
+    padding: 120px 0 120px;
+}
+.wrapperBanner h4{
+    padding-left: 39px;
+}
+.wrapperBanner h4:before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    border-top: 1px solid #434343;
+}
+.wrapperBanner h1{
+    margin: 30px 0 60px;
+}
+.wrapperBanner h1 span{
+    color: #1A6A62;
+}
+.wrapperBanner button{
+    background: #1A6A62;
+    color: #fff;
+}
+.banner{
+    position: relative;
+}
+.bannerImg{
+    position: absolute;
+    top: 0;
+    right: -80px;
+}
+.bannerImg img{
+    width: 489px;
+}

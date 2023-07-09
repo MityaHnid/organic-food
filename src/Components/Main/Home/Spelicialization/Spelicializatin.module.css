@@ -1,0 +1,43 @@
+.wrapperSpecialization{
+    background: #FFF2F0;
+}
+.specialization{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 302px 0 0;
+}
+.specializationCard{
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.specialization ul li:nth-child(1){
+    position: absolute;
+    bottom: 115px;
+    left: 0;
+}
+.specialization ul li:nth-child(2){
+    position: absolute;
+    top: 80px;
+    left: 310px;
+}
+.specialization ul li:nth-child(3){
+    position: absolute;
+    top: 80px;
+    right: 310px;
+}
+.specialization ul li:nth-child(4){
+    position: absolute;
+    bottom: 115px;
+    right: 0;
+}
+.specializationCard h4{
+    padding: 24px 0 18px;
+}
+.specializationCard p{
+    text-align: center;
+}

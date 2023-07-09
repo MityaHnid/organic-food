@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url("../src/assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #7E7E7E;
+  background: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+img{
+  max-width: 100%;
+}
